@@ -1,0 +1,16 @@
+.add_btn{
+  width: 20px;
+  height: 20px;
+  background: #00FF00;
+  margin-left: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.delete_btn{
+  width: 20px;
+  height: 20px;
+  background: #FF0000;
+  margin-left: 30px;
+  border-radius: 10px;
+  text-align: center;
+}

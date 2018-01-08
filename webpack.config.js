@@ -1,20 +1,20 @@
 module.exports = {
-    entry: "./app/app.jsx", // входная точка - исходный файл
+    entry: "./app/app.jsx", 
     output:{
-        path:  __dirname + "/public",     // путь к каталогу выходных файлов
-        filename: "bundle.js"       // название создаваемого файла
+        path:  __dirname + "/public",     
+        filename: "bundle.js"       
     },
     watch: true,
     watchOptions:{
       aggregateTimeout:300
     },
     resolve:{
-        extensions: ["*", ".js", ".jsx"] // расширения для загрузки модулей
+        extensions: ["*", ".js", ".jsx"] 
     },
     module:{
-        loaders:[   //загрузчики
+        loaders:[   
             {
-                test: /\.jsx?$/, // определяем тип файлов
+                test: /\.jsx?$/, 
                 exclude: /(node_modules)/,
                 loader: "babel-loader",
                 query:{
